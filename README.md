@@ -1,3 +1,3 @@
 # eighty.vim
 
-If the current column is greater than 80, set colorcolumn=80.
+If the current column is greater than or equal to 80, set colorcolumn=80.
