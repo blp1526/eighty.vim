@@ -1,7 +1,7 @@
 function! eighty#exec()
-  if col('.') >= 80
-    set colorcolumn=80
+  if col('.') >= g:eighty_vim_threshold
+    let &colorcolumn = g:eighty_vim_threshold
   else
-    set colorcolumn=0
+    let &colorcolumn = 0
   endif
 endfunction
