@@ -6,6 +6,10 @@ let g:loaded_eighty = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
+if !exists('g:eighty_vim_threshold')
+  let g:eighty_vim_threshold = 80
+endif
+
 augroup eighty
   autocmd!
   autocmd CursorMoved,CursorMovedI * call eighty#exec()
