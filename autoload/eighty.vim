@@ -1,4 +1,4 @@
-function! eighty#exec()
+function! eighty#exec() abort
   if virtcol('.') >= g:eighty_vim_threshold
     let &colorcolumn = g:eighty_vim_threshold
   else
