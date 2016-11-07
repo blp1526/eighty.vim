@@ -1,4 +1,4 @@
-source $PWD/plugin/eighty.vim
+source $PWD/autoload/eighty.vim
 
 let v:errors = []
 
