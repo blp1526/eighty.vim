@@ -9,7 +9,8 @@ If the current column is greater than or equal to 80, set colorcolumn=80.
 ## Customize
 
 * `g:eighty_vim_threshold` changes the threshold.
-  * The default is `g:eighty_vim_threshold = 80`.
+  * The default is `let g:eighty_vim_threshold = 80`.
+  * How to temporarily disable is `let g:eighty_vim_threshold = 0`.
 
 ## Contributing
 
